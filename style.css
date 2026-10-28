@@ -1,0 +1,172 @@
+:root {
+    --azul:#112a43;
+    --azul-claro:#176d89;
+    --azul-medio:#245c7c;
+    --texto:#526478;
+    --fundo:#ffffff;
+    --suave:#f2f7fa;
+    --borda:#dce7ed;
+    --largura:1120px}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;
+background:var(--fundo);
+color:var(--azul);
+line-height:1.6}a{color:inherit;text-decoration:none}.container{width:min(var(--largura),calc(100% - 48px));
+margin:auto}.cabecalho{border-bottom:1px solid var(--borda);
+background:#fff}.navegacao{min-height:86px;display:flex;
+align-items:center;
+justify-content:space-between;
+gap:24px}.logo{font-size:26px;
+font-weight:800;
+letter-spacing:-2px}.logo span,.hero h1 span,.ponto-final{color:var(--azul-claro)}nav{display:flex;gap:30px}nav a,.link-cabecalho{font-size:13px;font-weight:700}nav a:hover,.link-cabecalho:hover,.rodape a:hover{color:var(--azul-claro)}.link-cabecalho{border-bottom:1px solid var(--azul-claro);
+padding-bottom:5px}.hero{min-height:600px;display:grid;grid-template-columns:1.1fr .9fr;
+align-items:center;
+gap:70px;
+padding-top:70px;
+padding-bottom:85px}.etiqueta,.rotulo,.categoria{font-size:11px;font-weight:800;letter-spacing:2px;color:var(--azul-claro)}.etiqueta{display:inline-flex;align-items:center;gap:10px;background:var(--suave);
+border:1px solid var(--borda);
+border-radius:30px;
+padding:8px 13px}.ponto{display:inline-block;
+width:7px;
+height:7px;
+background:#28a28c;
+border-radius:50%}.saudacao{font-size:20px;margin:25px 0 0}.hero h1{font-size:clamp(64px,8vw,112px);
+letter-spacing:-7px;
+line-height:1.06;margin:0 0 14px}.hero h2{font-size:21px;font-weight:600;max-width:470px;line-height:1.45}.introducao{max-width:500px;color:var(--texto);font-size:16px;margin:22px 0 28px}.acoes{display:flex;gap:12px;flex-wrap:wrap}.botao{display:inline-flex;align-items:center;justify-content:center;gap:18px;border-radius:6px;padding:13px 20px;font-weight:700;font-size:13px;transition:transform .2s,background .2s}.botao:hover{transform:translateY(-3px)}.botao-primario{background:var(--azul);color:#fff}.botao-primario:hover{background:var(--azul-claro)}.botao-secundario{border:1px solid #b9cbd7;background:#fff}.hero-visual{height:410px;position:relative;background:linear-gradient(140deg,#eaf4f8,#cbdfe9);border-radius:16px;display:grid;place-items:center}.foto-placeholder{width:65%;height:80%;border-radius:9px;background:linear-gradient(160deg,#a7c5d4,#4e809c);display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:15px 15px 0 #ffffff90;color:white}.foto-placeholder span{font-size:92px;letter-spacing:-8px;font-weight:800}.foto-placeholder small{font-size:12px;letter-spacing:1px}.selo{position:absolute;right:-18px;bottom:27px;background:#fff;padding:17px 22px;box-shadow:0 12px 30px #112a4318;border:1px solid var(--borda);border-radius:8px;font-size:10px;letter-spacing:2px}.selo strong{font-size:13px}.secao{padding-top:105px;padding-bottom:105px;scroll-margin-top:25px}.secao-suave{background:var(--suave)}.grade-sobre{display:grid;grid-template-columns:1fr 1fr;gap:100px}.titulo-secao{font-size:clamp(30px,3.7vw,46px);line-height:1.18;letter-spacing:-1.8px;margin:15px 0 0}.texto-sobre p,.grade-formacao p{color:var(--texto);margin:0 0 17px}.qualidades{display:flex;gap:9px;flex-wrap:wrap;margin-top:25px}.qualidades span,.tecnologias span{background:#e5f0f5;border:1px solid #d5e7ef;padding:6px 10px;border-radius:4px;font-size:11px;font-weight:700;color:var(--azul-medio)}.cabecalho-secao{display:flex;justify-content:space-between;align-items:end;gap:40px;margin-bottom:35px}.cabecalho-secao>p{max-width:300px;font-size:14px;color:var(--texto)}.grade-projetos{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.projeto{border:1px solid var(--borda);border-radius:10px;overflow:hidden;background:#fff;transition:transform .2s,box-shadow .2s}.projeto:hover{transform:translateY(-5px);box-shadow:0 18px 35px #112a4314}.projeto-arte{height:210px;display:grid;place-items:center;padding:20px}.arte-um{background:#d9eaf1}.arte-dois{background:#c7dce7}.arte-tres{background:#e2edf3}.janela{display:flex;flex-direction:column;width:83%;height:80%;border-radius:9px;background:#fff;box-shadow:0 14px 30px #173f5720;padding:13px 20px;position:relative}.janela i{display:inline-block;width:6px;height:6px;background:#a9c9d8;border-radius:50%;position:absolute;top:13px;left:14px}.janela i:nth-child(2){left:25px}.janela i:nth-child(3){left:36px}.janela b{font-size:21px;margin:auto auto 2px;letter-spacing:-1px}.janela em{font-style:normal;font-size:10px;margin:0 auto auto;color:var(--texto)}.clima{background:linear-gradient(160deg,#1b4e6b,#102b47);border-radius:13px;color:#fff;width:65%;height:90%;display:flex;flex-direction:column;justify-content:center;align-items:center;box-shadow:0 14px 30px #173f572b}.clima span{font-size:43px}.clima strong{font-size:44px;line-height:1.1}.clima small{font-size:12px}.grafico{width:83%;height:82%;border-radius:9px;background:#fff;padding:16px;box-shadow:0 14px 30px #173f5720}.grafico-topo{font-size:10px;font-weight:700;display:flex;justify-content:space-between}.grafico-topo span{color:#9dc1d3}.barras{height:100px;display:flex;align-items:end;justify-content:space-around;border-bottom:1px solid #b9cdd9;margin-top:16px}.barras i{width:12%;height:35%;background:#2c7695;border-radius:3px 3px 0 0}.barras i:nth-child(2){height:65%}.barras i:nth-child(3){height:48%}.barras i:nth-child(4){height:84%}.barras i:nth-child(5){height:72%}.barras i:nth-child(6){height:95%}.projeto-info{padding:25px}.projeto h3{font-size:21px;margin:8px 0}.projeto p{font-size:13px;color:var(--texto);min-height:64px}.tecnologias{display:flex;gap:7px;flex-wrap:wrap;margin-top:20px}.nota-projetos,.aviso{font-size:12px;color:#728496;margin-top:24px}.grade-formacao{display:grid;grid-template-columns:1fr 1fr;gap:90px;align-items:center}.grade-formacao>div>p{margin-top:25px}.formacao-cartao{background:#fff;border:1px solid var(--borda);border-radius:10px;padding:35px;box-shadow:0 15px 40px #112a4308}.icone-formacao{display:grid;place-items:center;background:var(--suave);color:var(--azul-claro);width:50px;height:50px;font-size:26px;border-radius:8px;margin-bottom:22px}.formacao-cartao h3{font-size:23px;line-height:1.3;margin:10px 0}.formacao-cartao p{margin:10px 0}.linha-cartao{height:1px;background:var(--borda);margin:25px 0}.contato{text-align:center}.contato h2{font-size:clamp(38px,5vw,65px);line-height:1.15;letter-spacing:-2px;margin:17px auto;max-width:750px}.contato h2 em{font-style:normal;color:var(--azul-claro)}.contato>p:not(.aviso){color:var(--texto);max-width:510px;margin:0 auto 25px}.contato .acoes{justify-content:center}.rodape{border-top:1px solid var(--borda)}.rodape-conteudo{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:95px}.rodape p,.rodape a:last-child{font-size:12px;color:var(--texto)}
+@media(max-width:850px){.navegacao{flex-wrap:wrap;padding:20px 0}.navegacao nav{order:3;width:100%;justify-content:center;flex-wrap:wrap;gap:14px}.link-cabecalho{margin-left:auto}.hero{grid-template-columns:1fr;gap:40px;padding-top:55px}.hero-visual{max-width:560px;width:100%;margin:auto}.grade-sobre,.grade-formacao{gap:35px}.grade-projetos{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.container{width:min(100% - 32px,var(--largura))}.navegacao{min-height:70px}.navegacao nav a{font-size:12px}.hero{padding-top:45px;padding-bottom:65px;min-height:auto}.hero h1{letter-spacing:-4px}.hero h2{font-size:18px}.hero-visual{height:320px}.selo{right:5px;bottom:12px}.secao{padding-top:70px;padding-bottom:70px}.grade-sobre,.grade-formacao,.grade-projetos{grid-template-columns:1fr}.cabecalho-secao{display:block}.cabecalho-secao>p{max-width:none}.projeto-arte{height:200px}.rodape-conteudo{flex-wrap:wrap;justify-content:center;text-align:center;padding:20px 0}.link-cabecalho{font-size:12px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.botao,.projeto{transition:none}}
+/* Ajustes da Etapa 1 */
+.navegacao nav{gap:17px;flex-wrap:wrap;justify-content:flex-end}
+.navegacao nav a{font-size:12px}
+.projeto-info p{min-height:0;margin:12px 0;line-height:1.6}
+.projeto-info p strong{color:var(--azul)}
+.grade-projetos{grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr))}
+.texto-secao{max-width:700px;color:var(--texto)}
+.contato h2 em{font-style:normal;color:var(--azul-claro)}
+.contato .aviso{max-width:700px;margin:25px auto 0}
+@media(max-width:850px){.navegacao nav{justify-content:center}}
+
+.foto-perfil {
+    display: block;
+    width: 78%;
+    height: 88%;
+    object-fit: cover;
+    object-position: center 38%;
+    box-shadow: 15px 15px 0 #ffffff90;
+}
+
+.botao-linkedin {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 18px;
+    background-color: #100747;
+    color: white;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.icone-linkedin {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+
+.botao-linkedin:hover {
+    background-color: #245c7c;
+}
+
+.botao-email {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 18px;
+    background-color: #100747;
+    color: white;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.icone-email {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+
+.botao-email:hover {
+    background-color: #245c7c;
+}
+.botao-github {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 18px;
+    background-color: #100747;
+    color: white;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.icone-github {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+
+.botao-github:hover {
+    background-color: #245c7c;
+}
+
+
+.resumo-curriculo {
+    max-width: 750px;
+    color: var(--texto);
+    margin: 25px 0 35px;
+    line-height: 1.8;
+}
+
+.grade-curriculo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+    margin-bottom: 35px;
+}
+
+.cartao-curriculo {
+    background: white;
+    border: 1px solid var(--borda);
+    border-radius: 10px;
+    padding: 30px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.cartao-curriculo:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px #112a4314;
+}
+
+.cartao-curriculo h3 {
+    font-size: 21px;
+    margin: 12px 0;
+}
+
+.cartao-curriculo p {
+    font-size: 14px;
+    color: var(--texto);
+    line-height: 1.7;
+}
+
+@media (max-width: 600px) {
+    .grade-curriculo {
+        grid-template-columns: 1fr;
+    }
+}
