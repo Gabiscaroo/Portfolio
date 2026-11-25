@@ -170,3 +170,77 @@ line-height:1.06;margin:0 0 14px}.hero h2{font-size:21px;font-weight:600;max-wid
         grid-template-columns: 1fr;
     }
 }
+
+/* Cards do currículo com Bootstrap */
+.curriculo-card {
+  border: 1px solid var(--borda);
+  border-radius: 12px;
+  background-color: #fff;
+  color: var(--azul);
+}
+.curriculo-card .card-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--azul);
+  line-height: 1.35;
+}
+.curriculo-card .card-subtitle {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.curriculo-card .card-text, .curriculo-card li {
+  color: var(--texto);
+  font-size: .95rem;
+  line-height: 1.7;
+}
+.curriculo-card ul { padding-left: 1.2rem; margin-bottom: 0; }
+.curriculo-card li { margin-bottom: .35rem; }
+.curriculo-card .badge { font-weight: 600; padding: .45rem .7rem; }
+.curriculo-subtitulo { font-size: 1.35rem; color: var(--azul); font-weight: 700; }
+
+
+.voluntariado-foto {
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+.voluntariado-galeria figure {
+    height: 100%;
+}
+
+.texto-sobre p {
+    text-align: justify;
+}
+
+.introducao {
+    text-align: justify;
+}
+.navegacao nav {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+      gap: .45rem 1.15rem;
+    }
+    .navegacao nav a {
+      white-space: nowrap;
+      font-size: .94rem;
+    }
+    @media (max-width: 991.98px) {
+      .navegacao { flex-wrap: wrap; gap: 1rem; }
+      .navegacao nav { justify-content: flex-start; }
+    }
+    @media (max-width: 575.98px) {
+      .navegacao nav { gap: .55rem .9rem; }
+      .navegacao nav a { font-size: .88rem; }
+    }
+    html { scroll-behavior: smooth; }
+    #projetos-api { padding-bottom: 2.5rem; }
+    #curriculo { padding-top: 2.5rem; }
+    #apresentacao, #projetos-api, #curriculo, #reconhecimentos, #voluntariado, #contato {
+      scroll-margin-top: 6rem;
+    }
+    @media (max-width: 991.98px) {
+      .navegacao nav { flex-wrap: wrap; justify-content: center; }
+    }
+
+

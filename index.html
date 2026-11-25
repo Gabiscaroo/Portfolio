@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Portfólio acadêmico e profissional de Gabriela Biscaro Belan, estudante de Desenvolvimento de Software Multiplataforma.">
   <title>Gabriela Biscaro Belan | Portfólio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
   <header class="cabecalho">
@@ -13,9 +15,12 @@
       <a class="logo" href="#inicio" aria-label="Voltar ao início">GB<span>.</span></a>
       <nav aria-label="Menu principal">
         <a href="#apresentacao">Apresentação</a>
-        <a href="#projetos-api">Projetos na área</a>
-        <a href="#curriculo">Currículo</a>
-        <a href="#contato">Contato e Redes Sociais</a>
+        <a href="#projetos-api">Projetos</a>
+        <a href="#experiencia">Experiência profissional</a>
+        <a href="#formacao">Formação e idiomas</a>
+        <a href="#reconhecimentos">Reconhecimentos e prêmios</a>
+        <a href="#voluntariado">Voluntariado</a>
+        <a href="#contato">Contato</a>
       </nav>
     </div>
   </header>
@@ -25,8 +30,7 @@
         <span class="etiqueta"><span class="ponto"></span> PORTFÓLIO ACADÊMICO E PROFISSIONAL</span>
         <p class="saudacao">Olá, eu sou</p>
         <h1>Gabriela Biscaro Belan<span>.</span></h1>
-        <h2>Sou advogada e atualmente estou me dedicando para migrar de carreira para a área de tecnologia.</h2>
-        <p class="introducao"> Estou começando a construir minha trajetória na àrea de tecnologia, com interesse em desenvolvimento web, Python e análise de dados.</p>
+        <h2>Sou advogada e atualmente estou me dedicando para agregar conhecimentos na área de tecnologia..</h2>
         <div class="acoes">
           <a class="botao botao-primario" href="#projetos-api">Conheça meus projetos ↗</a>
           <a class="botao botao-secundario" href="#apresentacao">Sobre mim</a>
@@ -69,7 +73,7 @@
             <p><strong>Desafio:</strong> Utilizar os conhecimentos obtidos em aula para criar uma página web funcional e esteticamente agradável com nomínimo 3 páginas</p>
             <p><strong>Minha contribuição:</strong> Trabalho realizado de forma individual, tendo sido criado um site responsivo para uma gelateria artesanal</p>
             <p><strong>Tecnologias:</strong> HTML, CSS</p>
-            <p><strong>Repositório pessoal:</strong> <a href="https://github.com/Gabiscaroo/SiteCumaruAtividade2" target="_blank" rel="noopener noreferrer">https://github.com/Kurumin-DSM1-2026/dsm-html-1semestre-2026</a></p>
+            <p><strong>Repositório pessoal:</strong> <a href="https://github.com/Gabiscaroo/SiteCumaruAtividade2" target="_blank" rel="noopener noreferrer">https://github.com/Gabiscaroo/SiteCumaruAtividade2</a></p>
           </div>
           
         </article>
@@ -84,60 +88,180 @@
 
     <section id="curriculo" class="secao secao-suave">
       <div class="container">
-
-      <span class="rotulo">TRAJETÓRIA PROFISSIONAL</span>
-      <h2 class="titulo-secao">Experiência e formação.</h2>
-
-      <p class="resumo-curriculo">
-      Minha trajetória profissional teve início na área
-      jurídica, onde desenvolvi experiências que hoje
-      complementam minha transição para a tecnologia.
-      Atualmente, curso Desenvolvimento de Software
-      Multiplataforma na Fatec.
-      </p>
-
-      <div class="grade-curriculo">
-
-      <article class="cartao-curriculo">
-        <span class="categoria">EXPERIÊNCIA PROFISSIONAL</span>
-        <h3>Gouvêa Vieira Sociedade de Advogados</h3>
-        <p>Área jurídica</p>
-        <p>
-          Advogada especialista na área de Direito Civil com foco no direito médico e da saúde, atuando em favor da Sul América Companhia de Seguros e de seus clientes, com ênfase em processos massificados.
+        <span class="rotulo">TRAJETÓRIA PROFISSIONAL</span>
+        <h2 class="titulo-secao mb-4">Experiência e formação.</h2>
+        <p class="resumo-curriculo">
+          Minha trajetória profissional teve início na área jurídica, onde desenvolvi experiências que hoje complementam minha transição para a tecnologia. Atualmente, curso Desenvolvimento de Software Multiplataforma na Fatec.
         </p>
-      </article>
 
-      <article class="cartao-curriculo">
-        <span class="categoria">FORMAÇÃO ATUAL</span>
-        <h3>Fatec</h3>
-        <p>Desenvolvimento de Software Multiplataforma</p>
-        <p>Graduação em andamento.</p>
-      </article>
+        <h3 id="experiencia" class="curriculo-subtitulo mt-5 mb-3">Experiência profissional</h3>
+        <div class="row row-cols-1 row-cols-lg-2 g-4">
+          <div class="col">
+            <article class="card h-100 curriculo-card shadow-sm">
+              <div class="card-body">
+                <span class="badge text-bg-primary mb-2">Nov. 2024 – atual</span>
+                <h4 class="card-title">Advogada associada</h4>
+                <h5 class="card-subtitle mb-2 text-muted">Gouvêa Vieira Sociedade de Advogados – SP</h5>
+                <p class="small text-muted">São Paulo, Brasil · Remoto · Tempo integral</p>
+                <p class="card-text">Atuação na área de Direito Civil, com foco em direito médico e da saúde, em favor da Sul América Companhia de Seguros e de seus clientes, com ênfase em processos massificados.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col">
+            <article class="card h-100 curriculo-card shadow-sm">
+              <div class="card-body">
+                <span class="badge text-bg-secondary mb-2">Ago. 2022 – dez. 2022</span>
+                <h4 class="card-title">Assessora jurídica</h4>
+                <h5 class="card-subtitle mb-2 text-muted">Hasse Advocacia e Consultoria</h5>
+                <p class="small text-muted">Jaraguá do Sul, Santa Catarina</p>
+                <p class="card-text">Atuação na área de Direito do Trabalho.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col">
+            <article class="card h-100 curriculo-card shadow-sm">
+              <div class="card-body">
+                <span class="badge text-bg-secondary mb-2">Fev. 2022 – out. 2022</span>
+                <h4 class="card-title">Assistente jurídica</h4>
+                <h5 class="card-subtitle mb-2 text-muted">Lisboa & Faria Advogados Associados</h5>
+                <p class="small text-muted">São José dos Campos, São Paulo</p>
+                <ul class="card-text">
+                  <li>Elaboração de peças processuais, recursos, contratos e procurações;</li>
+                  <li>Ajuizamento de ações e protocolo nos sistemas e-SAJ e PJe;</li>
+                  <li>Acompanhamento processual e cumprimento de publicações;</li>
+                  <li>Pesquisas e análises jurisprudenciais;</li>
+                  <li>Auxílio nas demais necessidades do escritório.</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+          <div class="col">
+            <article class="card h-100 curriculo-card shadow-sm">
+              <div class="card-body">
+                <span class="badge text-bg-secondary mb-2">Mai. 2020 – jan. 2022</span>
+                <h4 class="card-title">Estagiária | Assistente jurídico</h4>
+                <h5 class="card-subtitle mb-2 text-muted">Cata Preta Lima Sociedade Individual de Advocacia</h5>
+                <p class="small text-muted">São José dos Campos, São Paulo</p>
+                <ul class="card-text">
+                  <li>Elaboração de peças processuais;</li>
+                  <li>Elaboração de representações eleitorais;</li>
+                  <li>Auxílio nas demais necessidades dos advogados do escritório.</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+          <div class="col">
+            <article class="card h-100 curriculo-card shadow-sm">
+              <div class="card-body">
+                <span class="badge text-bg-secondary mb-2">Fev. 2018 – out. 2019</span>
+                <h4 class="card-title">Estagiária | Gestão de contratos e Ética & Compliance</h4>
+                <h5 class="card-subtitle mb-2 text-muted">ALETIS Aerospace</h5>
+                <p class="small text-muted">São José dos Campos, São Paulo</p>
+                <ul class="card-text">
+                  <li>Elaboração de contratos, procurações e acordos de confidencialidade;</li>
+                  <li>Acompanhamento de processos administrativos;</li>
+                  <li>Abertura, renovação e manutenção de contratos guarda-chuva no SAP Business;</li>
+                  <li>Atendimento às demandas de outros departamentos relacionadas ao setor jurídico, contratos e Ética & Compliance.</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+          <div class="col">
+            <article class="card h-100 curriculo-card shadow-sm">
+              <div class="card-body">
+                <span class="badge text-bg-secondary mb-2">Mar. 2016 – fev. 2018</span>
+                <h4 class="card-title">Estagiária | Auxiliar notarial</h4>
+                <h5 class="card-subtitle mb-2 text-muted">Terceiro Tabelionato de Notas</h5>
+                <p class="small text-muted">São José dos Campos, São Paulo</p>
+                <ul class="card-text">
+                  <li>Atendimento ao público;</li>
+                  <li>Reconhecimento de firma simples e autenticação de documentos;</li>
+                  <li>Reconhecimento de firma por autenticidade;</li>
+                  <li>Auxílio e atendimento às necessidades dos demais setores do cartório.</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
 
-      <article class="cartao-curriculo">
-        <span class="categoria">FORMAÇÃO ANTERIOR</span>
-        <h3>Universidade do Vale do Paraíba</h3>
-        <p>Direito | 2015 - 2020</p>
-        <p>Graduação concluída.</p>
-      </article>
+        <h3 id="formacao" class="curriculo-subtitulo mt-5 mb-3">Formação e idiomas</h3>
+        <div class="row row-cols-1 row-cols-md-2 g-4 mb-4">
+          <div class="col"><article class="card h-100 curriculo-card shadow-sm"><div class="card-body"><span class="badge text-bg-primary mb-2">Em andamento</span><h4 class="card-title">Fatec</h4><p class="card-text">Desenvolvimento de Software Multiplataforma</p></div></article></div>
+          <div class="col"><article class="card h-100 curriculo-card shadow-sm"><div class="card-body"><span class="badge text-bg-secondary mb-2">2015 – 2020</span><h4 class="card-title">Universidade do Vale do Paraíba</h4><p class="card-text">Graduação em Direito.</p></div></article></div>
+          <div class="col"><article class="card h-100 curriculo-card shadow-sm"><div class="card-body"><h4 class="card-title">Inglês</h4><p class="card-text">Nível avançado</p></div></article></div>
+          <div class="col"><article class="card h-100 curriculo-card shadow-sm"><div class="card-body"><h4 class="card-title">Espanhol</h4><p class="card-text">Nível básico</p></div></article></div>
+        </div>
+        <a href="https://www.linkedin.com/in/gabiscaro/" class="botao botao-primario" target="_blank" rel="noopener noreferrer">Ver currículo completo no LinkedIn ↗</a>
 
-      <article class="cartao-curriculo">
-        <span class="categoria">IDIOMAS</span>
-        <h3>Conhecimentos linguísticos</h3>
-        <p>Inglês — Avançado</p>
-        <p>Espanhol — Básico</p>
-      </article>
+        <h3 id="reconhecimentos" class="curriculo-subtitulo mt-5 mb-3">Reconhecimentos e prêmios</h3>
+        <div class="row g-4 mb-4">
+          <div class="col-12">
+            <article class="card curriculo-card shadow-sm">
+              <div class="card-body">
+                <span class="badge text-bg-secondary mb-2">Dez. 2020</span>
+                <h4 class="card-title">3º lugar no prêmio “Márcio Thomaz Bastos”</h4>
+                <h5 class="card-subtitle mb-3 text-muted">Universidade do Vale do Paraíba</h5>
+                <p class="card-text">Reconhecimento pela monografia intitulada <em>“O Princípio do Non-Refoulement como Norma Imperativa do Direito Internacional Geral e sua Aplicação na Proteção dos Direitos dos Refugiados no Brasil”</em>.</p>
+                <p class="small text-muted mb-0">Trata-se de uma premiação da Universidade do Vale do Paraíba com o intuito de prestigiar e premiar os autores de monografias inéditas sobre temas livres de Direito que alcançaram as notas mais elevadas nas avaliações realizadas pelas Bancas Avaliadoras no 2º Semestre letivo de 2020.</p>
+              </div>
+            </article>
+          </div>
+        </div>
 
-    </div>
-
-    <a href="https://www.linkedin.com/in/gabiscaro/"
-       class="botao botao-primario"
-       target="_blank"
-       rel="noopener noreferrer">
-       Ver currículo completo no LinkedIn ↗
-    </a>
-    </div>
-    </section>
+        <h3 id="voluntariado" class="curriculo-subtitulo mt-5 mb-3">Voluntariado</h3>
+        <div class="row row-cols-1 row-cols-lg-2 g-4 mb-4">
+          <div class="col">
+            <article class="card h-100 curriculo-card shadow-sm">
+              <div class="card-body">
+                <span class="badge text-bg-secondary mb-2">Jun. 2015 – jul. 2017 · 2 anos e 2 meses</span>
+                <h4 class="card-title">Voluntária | Compartilhando Riso</h4>
+                <h5 class="card-subtitle mb-3 text-muted">Serviço social · Plantão do Riso</h5>
+                <p class="card-text">Atuação voluntária em uma associação sem fins lucrativos que promove visitas de palhaços em hospitais. Após um treinamento de seis meses, passei a realizar visitas como palhaça a pacientes nos hospitais Nefromed, Clínica Sul, Hospital Pró-Infância e Santa Casa de São José dos Campos, buscando levar acolhimento, leveza e momentos de alegria durante a hospitalização.</p>
+                <!-- GALERIA DE FOTOS: para adicionar imagens, copie um bloco .col abaixo e troque o nome do arquivo e o texto alt. -->
+                <div class="row g-3 mt-2 voluntariado-galeria">
+                  <div class="col-6">
+                    <figure class="mb-0">
+                      <img src="plantao-do-riso.png" class="img-fluid w-100 rounded voluntariado-foto" alt="Voluntários do Plantão do Riso durante visita hospitalar">
+                      <figcaption class="small text-muted mt-2">Plantão do Riso</figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-6">
+                    <figure class="mb-0">
+                      <img src="LunetaVicentinaok.png" class="img-fluid w-100 rounded voluntariado-foto" alt="Descrição da foto">
+                      <figcaption class="small text-muted mt-2">Luneta e seu cachorro no Vicentina</figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col">
+            <article class="card h-100 curriculo-card shadow-sm">
+              <div class="card-body">
+                <span class="badge text-bg-secondary mb-2">2014 · 2015 · 2016 · ações pontuais</span>
+                <h4 class="card-title">Voluntária | Missão Caiuá</h4>
+                <h5 class="card-subtitle mb-3 text-muted">Dourados, Mato Grosso do Sul · Serviço comunitário</h5>
+                <p class="card-text">Participação em ações voluntárias pontuais na Base da Missão Caiuá, em Dourados/MS, colaborando em diferentes atividades de apoio à comunidade. Durante as ações, auxiliei os médicos nos atendimentos e consultas, 
+                  participei de trabalhos de pintura dos imóveis da missão e contribui com atividades infantis e momentos de recreação.</p>
+                <div class="row g-3 mt-2 voluntariado-galeria">
+                  <div class="col-6">
+                    <figure class="mb-0">
+                      <img src="CAIUACRIANCA.jpeg" class="img-fluid w-100 rounded voluntariado-foto" alt="Atividade voluntária na Missão Caiuá">
+                      <figcaption class="small text-muted mt-2">Missão Caiuá</figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-6">
+                    <figure class="mb-0">
+                      <img src="CAIUAOFTALMO.jpeg" class="img-fluid w-100 rounded voluntariado-foto" alt="Atividade voluntária na Missão Caiuá">
+                      <figcaption class="small text-muted mt-2">Missão Caiuá</figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="contato" class="secao container contato">
@@ -163,6 +287,7 @@
       </p>
     </section>
   </main>
-  <footer class="rodape"><div class="container rodape-conteudo"><a class="logo" href="#inicio">GB<span>.</span></a><p>© 2026 Gabriela Biscaro Belan · Portfólio</p><a href="#inicio">Voltar ao topo ↑</a></div></footer>
+  <footer class="rodape"><div class="container rodape-conteudo"><a class="logo" href="#inicio"></span></a><p>© 2026 Gabriela Biscaro Belan · Portfólio</p><a href="#inicio">Voltar ao topo ↑</a></div></footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
